@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* import poppins font */
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add styles to the content elements inside #root */
+#root > * {
+  flex: 1;
+}
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
