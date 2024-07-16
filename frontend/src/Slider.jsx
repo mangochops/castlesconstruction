@@ -139,7 +139,7 @@ const Slider = () => {
           <p className="text-lg mt-4 text-center">{projects[currentIndex].description}</p>
           <button
             onClick={handleGetQuote}
-            className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+            className="mt-4 bg-custom-blue hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
           >
             Get a Quote
           </button>
@@ -158,7 +158,7 @@ const Slider = () => {
             key={projectIndex}
             onClick={() => goToSlide(projectIndex)}
             className={`cursor-pointer mx-2 ${
-              projectIndex === currentIndex ? "text-blue-500" : "text-gray-400"
+              projectIndex === currentIndex ? "text-custom-blue" : "text-gray-400"
             }`}
           >
             {projectIndex === currentIndex ? (

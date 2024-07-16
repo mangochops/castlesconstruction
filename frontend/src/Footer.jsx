@@ -7,7 +7,7 @@ const Footer = () => {
     
     <footer className="bg-custom-blue py-12">
       <div className="container mx-auto px-4 flex flex-col items-center justify-center">
-        <img src="/assets/logo.png" alt="logo" className="mb-4 w-auto h-16" />
+        <img src="/assets/Frame 5.png" alt="logo" className="mb-4 w-auto h-24" />
         <ul className="flex flex-wrap mb-8">
           <li className="mr-6"><a href="/#" className="text-white hover:text-gray-300">Home</a></li>
           <li className="mr-6"><a href="/#" className="text-white hover:text-gray-300">Services</a></li>

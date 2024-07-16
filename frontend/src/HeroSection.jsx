@@ -14,7 +14,7 @@ const HeroSection = () => {
         <h1 className="text-4xl sm:text-6xl lg:text-7xl tracking-wide font-bold">
           WE BUILD YOUR DREAMS
         </h1>
-        <p className="mt-4 text-lg max-w-2xl mx-auto font-medium">
+        <p className="mt-4 text-lg max-w-2xl   mx-auto font-medium">
           At Castles Construction Company, we specialize in transforming your vision into reality with precision and care. As a full-service construction firm, we are committed to exceeding expectations by consistently delivering exceptional quality and service on every project. Whether it is crafting bespoke residential spaces or managing large-scale commercial developments, trust us to bring your dreams to life with expertise and dedication.
         </p>
         <Link
